@@ -1,0 +1,24 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Maven build output
+target/
+*.class
+
+# SECURITY: credentials — never commit
+src/main/resources/config.properties
+
+# SECURITY: generated output contains customer names
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
