@@ -44,13 +44,13 @@ runs machine learning, and generates CSV reports + an offline HTML dashboard.
 ![Dashboard](doc/dashboard.png.png)
 
 ### Console Output Recommendations
-![Console](docs/recommendations.png.png)
+![Console](doc/recommendations.png.png)
 
 ### Results CSV
-![Results](docs/result.png.png)
+![Results](doc/result.png.png)
 
 ### Region Report
-![Results](docs/region_report.png.png)
+![Results](doc/region_report.png.png)
 
 ---
 
