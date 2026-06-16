@@ -17,7 +17,7 @@ detects market gaps, forecasts revenue, and recommends products using ML.</p>
 
 ## About
 
-**Author:** Swagat Samal  |  **Version:** 1.0  |  **Year:** 2026
+**--:** Swagat Samal  |  **Version:** 1.0  |  **Year:** 2026
 
 End-to-end sales intelligence system: Java 17 + MySQL 8 + Weka ML.
 Runs as a single Java application — connects to MySQL, processes RFM data,
