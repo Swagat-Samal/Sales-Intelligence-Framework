@@ -11,6 +11,9 @@ import java.sql.*;
 import java.util.*;
 
 public class RevenueForecaster {
+    static {
+        System.setProperty("org.slf4j.simpleLogger.defaultLogLevel", "error");
+    }
 
     public void forecast() throws Exception {
         ArrayList<Attribute> attrs = new ArrayList<>();

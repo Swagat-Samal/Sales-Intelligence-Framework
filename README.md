@@ -70,7 +70,7 @@ SalesIntelligence/
 │   └── ChartExporter.java         ← Offline HTML dashboard (Canvas 2D)
 ├── src/main/resources/
 │   ├── Schema.sql                 ← Tables + 3 views
-│   ├── seed_data.sql              ← 50 customers, 15 products, 237+ transactions
+│   ├── seed_data.sql              ← 50 customers, 10 products, 200+ transactions
 │   └── config.example.properties ← Credential (copy to config.properties)
 ├── doc/                          ← Output screenshots
 ├── pom.xml
