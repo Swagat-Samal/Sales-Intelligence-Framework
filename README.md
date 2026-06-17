@@ -52,6 +52,20 @@ runs machine learning, and generates CSV reports + an offline HTML dashboard.
 ### Region Report
 ![Results](doc/region_report.png.png)
 
+### EER Diagram
+![Results](doc/EER_Diagram.png) 
+## Database Structure
+
+### Core Tables
+- customers
+- products
+- transactions
+
+### Analytical Views
+- rfm_scores
+- product_pairs
+- region_demand
+
 ---
 
 ## Project Structure
@@ -71,8 +85,8 @@ SalesIntelligence/
 ├── src/main/resources/
 │   ├── Schema.sql                 ← Tables + 3 views
 │   ├── seed_data.sql              ← 50 customers, 10 products, 200+ transactions
-│   └── config.example.properties ← Credential (copy to config.properties)
-├── doc/                          ← Output screenshots
+│   └── config.example.properties  ← Credential (copy to config.properties)
+├── doc/                           ← Output screenshots
 ├── pom.xml
 ├── LICENSE
 └── README.md
@@ -100,9 +114,7 @@ SOURCE src/main/resources/seed_data.sql;
 Verify: `SELECT COUNT(*) FROM rfm_scores;` — should return 49.
 
 ### 3 — Configure credentials
-```bash
-copy src\main\resources\config.example.properties src\main\resources\config.properties
-```
+
 Open `config.properties` and set your MySQL password:
 ```properties
 db.url=jdbc:mysql://localhost:3306/sales_db
