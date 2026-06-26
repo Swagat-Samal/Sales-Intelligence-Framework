@@ -65,8 +65,8 @@ SELECT
     p2.category                            AS category_b
 FROM transactions t1
          JOIN transactions t2
-              ON  t1.customer_id = t2.customer_id   -- same customer
-                  AND t1.product_id  < t2.product_id    -- avoid (A,B) and (B,A) duplicates
+              ON  t1.customer_id = t2.customer_id
+                  AND t1.product_id  < t2.product_id
          JOIN products p1 ON t1.product_id = p1.product_id
          JOIN products p2 ON t2.product_id = p2.product_id
 GROUP BY t1.product_id, t2.product_id, p1.name, p2.name, p1.category, p2.category

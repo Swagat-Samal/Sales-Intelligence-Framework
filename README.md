@@ -177,6 +177,3 @@ You may not use it commercially, modify it, or claim it as your own.
 
 ---
 
-## Acknowledgements
-- [Weka](https://www.cs.waikato.ac.nz/ml/weka/) — ML library, University of Waikato
-- [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/) — JDBC driver
